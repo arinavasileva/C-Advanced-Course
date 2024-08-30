@@ -48,7 +48,7 @@ public:
 
         std::cout << "Task1 is running\n";
 
-        std::this_thread::sleep_for(std::chrono::milliseconds(500)); // Simulating a delay
+        std::this_thread::sleep_for(std::chrono::milliseconds(3500)); // Simulating a delay
 
     }
 
@@ -63,7 +63,7 @@ public:
 
         std::cout << "Task2 is running\n";
 
-        std::this_thread::sleep_for(std::chrono::milliseconds(500)); // Simulating a delay
+        std::this_thread::sleep_for(std::chrono::milliseconds(3500)); // Simulating a delay
 
     }
 
